@@ -1012,8 +1012,8 @@ augroup TextBulletsMappings
     " call s:add_local_mapping('nnoremap', '>>', ':BulletDemote<cr>')
     call s:add_local_mapping('inoremap', '<C-d>', '<C-o>:BulletPromote<cr>')
     " call s:add_local_mapping('nnoremap', '<<', ':BulletPromote<cr>')
-    call s:add_local_mapping('vnoremap', '>', ':BulletDemoteVisual<cr>')
-    call s:add_local_mapping('vnoremap', '<', ':BulletPromoteVisual<cr>')
+    call s:add_local_mapping('vnoremap', '>', ':BulletDemoteVisual<cr>gv')
+    call s:add_local_mapping('vnoremap', '<', ':BulletPromoteVisual<cr>gv')
   end
 augroup END
 " --------------------------------------------------------- }}}
